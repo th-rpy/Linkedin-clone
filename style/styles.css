@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+/* Navigation */
+.navigation{
+    position: fixed;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid #F4F4F4;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+.navigation .logo{
+    position: absolute;
+    left: 0%;
+    right: 90.97%;
+    top: 0%;
+    bottom: 0%;
+    border-right: 1px solid #F4F4F4;
+    display: flex;   justify-content: center;
+}
+
+.navigation .logo svg{
+    margin: auto;
+}
+
+.navigation .menu{
+    position: absolute;
+    left: 9%;
+    right: 58.82%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-right: 1px solid #F4F4F4;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  list-style-type:none;
+  margin: auto;
+}
+
+.menu ul div{
+    margin-right: 40px;
+    margin-top: -0px;
+
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+  }
+
+.menu ul div a{
+    text-decoration: none;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #181818;
+}
+
+
+.navigation .search{
+    position: absolute;
+    left: 42.57%;
+    right: 31.94%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    border-right: 1px solid #F4F4F4;
+}
+
+.navigation svg{
+
+    margin-left: 10px;
+} 
+
+.navigation input{
+    border: none;
+    margin-left: 20px;
+} 
+.navigation input:focus{
+    outline: none;
+}
+.navigation input::placeholder{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #CECECE;
+}
