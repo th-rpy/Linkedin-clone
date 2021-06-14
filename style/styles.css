@@ -4,6 +4,9 @@ html, body{
     height: 100%;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+      
 }
 
 /* Navigation */
@@ -217,7 +220,7 @@ justify-content: center;
 
 /* Footer Section */
 .footer-section{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 215px;
     overflow: hidden;
@@ -227,7 +230,6 @@ justify-content: center;
     flex-direction: row;
     justify-content: center;
 
-    margin-top:auto; 
 }
 
 .logo-footer {
@@ -709,6 +711,69 @@ color: #181818;
 
     color: #0275B1;
     cursor: pointer
+}
+
+/* Nav Profil */ 
+
+.profil-nav {
+    position: absolute;
+    width: 850px;
+    height: 100px;
+    left: 169px;
+    top: 501px;
+    
+}
+.profil-nav .tabs {
+    display: flex;
+    flex-direction:row;
+    justify-self: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F4F4F4;
+    height: auto;
+}
+
+.profil-nav .tabs div {
+    width: 240px;
+    height:40px;
+    border-right: 1px solid #F4F4F4;
+    background-color:#FFFFFF;
+}
+
+.profil-nav .tabs .actived {
+    width: 240px;
+    height:50px;
+    border-right: 1px solid #F4F4F4;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+border-radius: 4px 4px 0px 0px;
+color: #ffffff;
+}
+
+.profil-nav .tabs div p{
+    font-family:'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+
+    margin-top: 21px;
+ 
+}
+
+.profil-nav .tabs .actived p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.profil-nav .tabs .act p{
+    font-family:'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-top: 3px;
+
 }
 
 
