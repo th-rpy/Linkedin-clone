@@ -606,7 +606,110 @@ justify-content: center;
     margin-top:0;
 }
 
+/* info profil */
+.profile-section .profil-info{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 25px;
+    top: 160px;
+    border-radius: 50%;
 
+    background-image: url(/imgs/profil.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #FFFFFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+ .info .name{
+    position: absolute;
+    width: 600px;
+    height: 17px;
+    left: 220px;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.info .name h4{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+    
+    color: #181818;
+    height:17px;
+}
+
+.info .name p{
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    color: #181818;
+    height:17px;
+}
+
+.info .about {
+    position: absolute;
+    width: 583px;
+    height: 42px;
+    left: 220px;
+    top: 240px;
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+color: #181818;
+}
+
+.info .button-inf {
+    position: absolute;
+    width: 583px;
+    height: 42px;
+    left: 220px;
+    top: 302px;
+}
+
+.button-inf .btn-contact {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px;
+    height: 32px;
+    width: 170px;
+    border:none;
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-inf .btn-connections{
+    background: #FFFFFF;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 32px;
+    width: 170px;
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #0275B1;
+    cursor: pointer
+}
 
 
 
