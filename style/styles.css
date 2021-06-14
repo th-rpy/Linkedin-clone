@@ -15,6 +15,9 @@ html, body{
     border-bottom: 1px solid #F4F4F4;
     box-shadow: 0 2px 2px -2px gray;
     margin-left: 30px;
+    z-index: 1;
+    opacity: 1000;
+    background-color: #ffffff;
 }
 
 .navigation .logo{
@@ -214,21 +217,17 @@ justify-content: center;
 
 /* Footer Section */
 .footer-section{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 215px;
-    margin: 0;
-    margin-top: 100px;
     overflow: hidden;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    bottom: 0; 
     background: #F7F9FB;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    margin-top:auto; 
 }
 
 .logo-footer {
@@ -485,6 +484,127 @@ justify-content: center;
         
         outline: none;
         }
+
+/* Profile Section */ 
+
+.profile-section{
+
+    position: absolute;
+    width: 850px;
+    height: 1826px;
+    left: 169px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.profile-section .profil{
+    position: absolute;
+    width: 850px;
+    height: 360px;
+    
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.profil .back{
+    position: absolute;
+    width: 850px;
+    height: 180px;
+    left: 0;
+    top: 0px;
+
+    background-image: url("/imgs/b.PNG");
+    background-size: cover;
+}
+
+.back .edit{
+    position: absolute;
+    width: 805px;
+    height: 36px;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items:center;
+
+}
+
+.edit svg{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    height: 24px;
+    width: 24px;
+}
+
+.profil .edit-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    left: 672px;
+    top: 20px;
+    margin-left: -30px;
+}
+
+.edit-profile .svg-profile{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -50px;
+    margin-top: auto;
+}
+
+.edit-profile svg{
+
+    margin-top: 5px;
+}
+
+.profil .edit-profile .p-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+
+
+    
+}
+
+.p-profile p{
+    font-family: 'Open Sans' sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+    margin-left: -8px;
+
+}
+
+.p-profile svg{
+    margin-top:0;
+}
 
 
 
