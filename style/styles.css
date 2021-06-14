@@ -279,7 +279,7 @@ justify-content: center;
     position: absolute;
     left: 18.06%;
     right: 48.26%;
-    top: 2%;
+    top: 0%;
     bottom: 24.65%;
     display: flex;
     flex-direction: column;
@@ -296,6 +296,7 @@ justify-content: center;
     font-weight: bold;
 
     color: #181818;
+    margin-top: 22px;
 }
 
 .navigation-footer div{
@@ -348,6 +349,144 @@ justify-content: center;
     cursor: pointer;
     color: #181818;
 }
+
+.access{
+    position: absolute;
+    left: 56.25%;
+    right: 31.94%;
+    top: 2.0%;
+    bottom: 33.49%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+
+.access  h4{
+    
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 11px;
+    font-weight: bold;
+
+    color: #181818;
+    margin-top: 30px;
+}
+
+.access div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.access .btn-questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #0275B1;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    height: 32px;
+    width: 170px;
+    left: 810px;
+    top: 69px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.access .btn-settings{
+    background: #F7F9FB;
+    color: #0275B1;
+    height: 32px;
+    width: 170px;
+    left: 810px;
+    top: 69px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.languages{
+
+    border-radius: 4px;
+    position: absolute;
+    left: 72.22%;
+    right: 9.03%;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.languages h4{
+    
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 11px;
+    font-weight: bold;
+
+    color: #181818;
+    margin-top:6px;
+
+}
+
+.languages .box {
+
+  }
+  
+  .box select {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    height: 40px;
+    width: 270px;
+    left: 1040px;
+    top: 69px;
+    border-radius: 4px;
+
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 12px;
+    line-height: 0px;
+    text-transform: uppercase;
+
+    color: #181818;
+    }
+
+    .box select:focus {
+        
+        outline: none;
+        }
+
+
 
 
 
