@@ -284,15 +284,11 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: -0px;
+    margin-top: 30px;
 }
 
 .navigation-footer  h4{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    
 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -306,17 +302,42 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 130px;
 }
 
 .navigation-footer ul{
     
     list-style: none;
 
-    margin-top: 30px;
-    margin-left: -90px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: -89px;
     display: flex;
     flex-direction:column;
     justify-content: space-around;
+    align-items: left;
+}
+
+.navigation-footer .ul3{
+    
+    list-style: none;
+
+    margin-top: -29px;
+    margin-right: 0px;
+    margin-left: -89px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+}
+
+.navigation-footer .ul3 li{
+    
+    margin-bottom: 10px;
+}
+
+.navigation-footer div ul li {
+    margin-bottom: 10px;
 }
 
 .navigation-footer div ul li a{
@@ -327,6 +348,7 @@ justify-content: center;
     cursor: pointer;
     color: #181818;
 }
+
 
 
 
