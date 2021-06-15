@@ -1015,3 +1015,134 @@ color: #ffffff;
     text-decoration: none;
 }
 
+/* Experience */ 
+
+.experiences{
+    position: absolute;
+    width: 850px;
+    height: 345px;
+    left: 169px;
+    top: 1154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.experiences .one{
+    padding: 5px;
+    padding-left: 40px;
+
+}
+
+.experiences .head{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+    margin-left: -10px;
+
+    color: #181818;
+}
+
+.experiences svg{
+    margin-left: -40px;
+    margin-top: 15px;
+}
+.experiences img{
+    margin-left: -40px;
+    margin-top: 15px;
+}
+
+.experiences .one .company{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: -30px;
+    width: 90%;
+} 
+.experiences .one div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -30px;
+    width: 90%;
+}
+
+.experiences div .company h2{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+
+    color: #181818;
+    padding: 0px;
+    margin-top: -0px;
+}
+
+.experiences div .company p{
+    font-size: 10px;
+    /* identical to box height, or 15px */
+    color: #181818;
+    margin-top : -5px;
+    font-weight: 600;
+}
+
+.experiences div .company span{
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+
+    color: #181818;
+    font-weight: 300;
+    margin-left: 11px;
+}
+
+.experiences .one div .company .june{
+    font-size: 10px;
+    /* identical to box height, or 15px */
+    color: #181818;
+    margin-top : -5px;
+    font-weight: 300;
+}
+
+.experiences .one div .company .june span{
+    font-size: 10px;
+    /* identical to box height, or 15px */
+    font-size: 10px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+font-weight: bold;
+color: #0275B1;
+}
+
+.experiences .one div .company .desc{
+    width: 650px;
+height: 30px;
+
+font-family: 'Open Sans' , sans-serif;
+font-size: 10px;
+line-height: 150%;
+text-align: left;
+/* or 15px */
+color: #181818;
+}
+
+.experiences .one div .company-line{
+    width: 790px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom :10px;
+    border-bottom: 1px solid #F4F4F4;
+
+}
