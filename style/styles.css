@@ -1241,4 +1241,45 @@ color: #181818;
     color: #686666;
 }
 
+/* Right Side */ 
 
+.right-side{
+    position: absolute;
+    width: 290px;
+    height: 1165px;
+    left: 1078px;
+    top: 120px;
+}
+
+.right-side .dashboard{
+    width: 290px;
+    height: 360px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+
+.right-side .visitors{
+    position: absolute;
+    width: 290px;
+    height: 427px;
+    top: 380px;
+
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+
+.right-side .courses{
+    position: absolute;
+    width: 290px;
+    height: 427px;
+    top: 830px;
+
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
