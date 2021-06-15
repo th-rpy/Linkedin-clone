@@ -1146,3 +1146,99 @@ color: #181818;
     border-bottom: 1px solid #F4F4F4;
 
 }
+
+/* Education */ 
+
+.education{
+    position: absolute;
+    width: 850px;
+    height: 195px;
+    left: 169px;
+    top: 1525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.education .detail-edu{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.education .detail-edu .paras{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.education .header{
+    width: 246px;
+    height: 17px;
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+
+    color: #181818;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.education .detail-edu img{
+
+    padding-top: 0px;
+    margin-right: 16px;
+    margin-left: 30px;
+}
+
+.education .detail-edu .paras{
+    padding-left: -80px;
+    margin-top: -15px;
+    
+}
+
+.education .detail-edu .paras h2{
+    width: 246px;
+    height: 21px;
+
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: bold;
+    /* identical to box height, or 21px */
+    margin-bottom: 5px;
+    color: #181818;
+}
+
+.education .detail-edu .paras p{
+    width: 501px;
+    height: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+
+    color: #181818;
+}
+
+.education .detail-edu .paras span{
+    width: 501px;
+    height: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+
+    color: #686666;
+}
+
+
