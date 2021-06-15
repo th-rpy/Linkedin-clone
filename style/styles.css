@@ -1440,15 +1440,95 @@ color: #181818;
 }
 
 
-
-
 .right-side .courses{
     position: absolute;
     width: 290px;
-    height: 427px;
+    height: 338px;
     top: 830px;
 
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.courses h2{
+    width: 198px;
+    height: 11px;
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+color: #181818;
+padding-left: 30px;
+padding-top: 2px;
+}
+
+.courses a{
+    width: 175px;
+    height: 11px;
+
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+    color: #0275B1;
+    padding-left: 30px;
+padding-top: 5px;
+}
+
+.courses .course{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+.courses .course img{
+    width: 80px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.course .course-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 5px;
+}
+
+.course .course-name h2{
+    width: 118px;
+    height: 36px;
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 125%;
+    /* or 17px */
+    color: #181818;
+    cursor: pointer;
+
+
+}
+
+.course .course-name span{
+    width: 118px;
+    height: 36px;
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-top: -5px;
+    font-size: 10px;
+line-height: 150%;
+    /* or 17px */
+    color: #383737;
+
 }
