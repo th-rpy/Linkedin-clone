@@ -81,6 +81,13 @@ html, body{
     font-weight: 600;
 }
 
+.menu ul div a:hover{
+    text-decoration: underline;
+
+    color: #0077B5;;
+
+}
+
 /* Search section */
 .navigation .search{
     position: absolute;
@@ -94,11 +101,18 @@ html, body{
     align-items:center;
     border-right: 1px solid #F4F4F4;
     margin-top: -2px;
+    cursor: pointer;
 }
 
 .navigation svg{
 
     margin-left: 10px;
+    cursor: pointer;
+    transition: transform .2s; /* Animation */
+
+} 
+.navigation svg:hover{
+    transform: scale(1.1);
 } 
 
 .navigation input{
@@ -559,6 +573,8 @@ justify-content: center;
     left: 672px;
     top: 20px;
     margin-left: -30px;
+    cursor: pointer;
+
 }
 
 .edit-profile .svg-profile{
@@ -739,6 +755,7 @@ color: #181818;
     height:40px;
     border-right: 1px solid #F4F4F4;
     background-color:#FFFFFF;
+    cursor: pointer;
 }
 
 .profil-nav .tabs .actived {
