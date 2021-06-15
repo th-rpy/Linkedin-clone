@@ -718,7 +718,7 @@ color: #181818;
 .profil-nav {
     position: absolute;
     width: 850px;
-    height: 100px;
+    height: 60px;
     left: 169px;
     top: 501px;
     
@@ -824,6 +824,94 @@ color: #ffffff;
 
     color: #0275B1;
     text-decoration: none;
+}
+
+/* Projects */ 
+
+.projects {
+    position: absolute;
+    width: 850px;
+    height: 355px;
+    left: 169px;
+    top: 779px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.projects div{
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.projects h2{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+
+    color: #181818;
+}
+
+.projects h2 span{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 300;
+    font-family: Gotham Pro;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+    
+    color: #747474;
+}
+
+.projects a{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #0275B1;
+    text-decoration: none;
+}
+
+
+.projects .details{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.projects .details div{
+    padding:0;
+    padding-bottom: 0px;
+    margin-left: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details div img{
+    width: 250px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.details div h2{
+    font-size: 14px;
+    /* identical to box height, or 21px */
+    color: #181818;
+    cursor: pointer;
+
+}
+
+.details div p{
+    font-size: 10px;
+    /* identical to box height, or 15px */
+    color: #181818;
+    margin-top : -5px;
 }
 
 
