@@ -1351,7 +1351,95 @@ color: #181818;
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
+.visitors h2{
+    width: 290px;
+    height: 11px;
+
+    font-family: "Open sans", sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+    color: #181818;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.visitors h2 span{
+    width: 83px;
+    height: 11px;
+
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #0275B1;
+    padding-left: 130px;
+    cursor: pointer;
+}
+
+.views{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+
+}
+
+.views svg{
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.views .names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 216px;
+    height: 52px;
+    padding-top: 15px;
+
+}
+
+.names h2{
+    width: 200px;
+    height: 13px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 13px;
+
+    color: #181818;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.names span{
+    width: 150px;
+    height: 13px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #181818;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+
 
 
 .right-side .courses{
